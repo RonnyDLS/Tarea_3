@@ -7,7 +7,7 @@ btn_entrar.addEventListener('click', ()=>{
     if(user.value === 'admin' && pass.value === 'admin'){
         
         localStorage.setItem('user',JSON.stringify({user:"admin", pass:"admin"}))
-        location.href = '/lobby.html'
+        location.href = '/html/lobby.html'
     }else{
         alert("Credenciales incorrectas")
         pass.value = '';
