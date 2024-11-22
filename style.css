@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/image.png');
+    background-size: cover;
+    background-position: center center;
+}
+.login{
+    width: 25rem;
+    height: 28rem;
+    padding: 4rem;
+    background-color: #ffffff;
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem .5rem #00000095;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000006a;
+    height: 100%;
+    width: 100%;
+}
+.titulo{
+    text-align: center;
+    color: #3c8a3c;
+    margin-bottom: 1.5rem;
+}
+.input_{
+    padding: .7rem;
+    width: 100%;
+    border-radius: .2rem;
+    border: solid 2px #6bb06b;
+    color: #367b36;
+    margin-top: .5rem;
+}
+.cj_inputs{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.sub_titulo{
+    font-size: .9rem;
+    font-weight: 300;
+    color: #9a9a9a;
+}
+.btn_entrar{
+    background-color: #459845;
+    padding: 1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .2s;
+    font-size: .9rem;
+    margin-top: 1.5rem;
+}
+.btn_entrar:hover{
+    background-color: #367b36;
+}
+.input_.pass{
+    font-weight: bold;
+}
